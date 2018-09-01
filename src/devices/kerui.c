@@ -65,11 +65,11 @@ static int kerui_callback(bitbuffer_t *bitbuffer) {
 }
 
 static char *output_fields[] = {
-    "time",
-    "model",
-    "id",
-    "data",
-    NULL
+	"time",
+	"model",
+	"id",
+	"data",
+	NULL
 };
 
 r_device kerui = {
