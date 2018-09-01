@@ -55,11 +55,11 @@ static int akhan_rke_callback(bitbuffer_t *bitbuffer) {
 }
 
 static char *output_fields[] = {
-	"time",
-	"model",
-	"id",
-	"data",
-	NULL
+    "time",
+    "model",
+    "id",
+    "data",
+    NULL
 };
 
 r_device akhan_100F14 = {
